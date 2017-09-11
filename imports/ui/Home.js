@@ -16,8 +16,7 @@ export default class Home extends React.Component {
             <p>Ça tombe bien, je suis un développeur passionné par le web,<br />
             toujours à la recherche de nouvelles opportunités.<br/> En ce moment,
           je suis à la recherche d'un contrat en alternance.<br/>
-        Si mon profil vous intéresse, n'hésitez pas à me
-        <Link to="/contact"> contacter</Link></p>
+        Si mon profil vous intéresse, n'hésitez pas à me contacter</p>
           </div>
           <div className="about">
             <h5>A propos de moi :</h5>
