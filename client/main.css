@@ -1,0 +1,277 @@
+/* CSS declarations go here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  opacity: 1;
+  	animation-name: fadeInOpacity;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-in;
+  	animation-duration: 2s;
+
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: red;
+}
+.header {
+  width:100%;
+  background-color: #B0E0E6;
+  border-bottom: 1px solid #5F9EA0;
+}
+.header img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 100px;
+}
+
+.menu {
+  float: right;
+  display: flex;
+  height:80px;
+}
+
+.menu img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 40px;
+  top:-15px;
+}
+
+.menu div {
+position:relative;
+left:-30px;
+top: 30px;
+margin-left: 100px;
+text-decoration: none;
+}
+
+.menu div a {
+  color: black;
+}
+
+.competences img {
+  position: relative;
+  left: 63px;
+}
+.portofolio img {
+  position: relative;
+  left: 50px;
+}
+.menu a:active {
+  color:red;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 1.3rem;
+  position: relative;
+  opacity: 1;
+  	animation-name: fadeInOpacity;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-in;
+  	animation-duration: 2s;
+
+
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.intro {
+  border-bottom: 1px dotted black;
+  height: 200px;
+  clear: both;
+}
+
+.intro img {
+  width: 200px;
+  height: 200px;
+}
+.intro h1 {
+  float: right;
+  position: relative;
+  left:-50px;
+}
+
+.intro p {
+  position : relative;
+  top: -120px;
+  left: -130px;
+  float: right;
+  text-align: center;
+}
+
+.about {
+  border-bottom: 1px dotted black;
+}
+
+.about img {
+  float: right;
+  position: relative;
+  top: -150px;
+  left: -100px;
+  border: 2px solid #B0E0E6;
+}
+
+.interest {
+  height: 250px;
+
+}
+.language {
+
+  height:200px;
+  width: 50%;
+}
+
+.language, .hobbies {
+  float:left;
+}
+
+.hobbies {
+  margin-left: 20px;
+}
+
+.hobbies p {
+  padding-top: 10px;
+}
+
+.french, .english, .arabic {
+  float:left;
+  margin-right: 40px;
+}
+
+.french p, .english p, .arabic p {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+}
+
+.footer {
+  height: 142px;
+  position: relative;
+  bottom: 0px;
+  background-color: #5F9EA0;
+  width:100%;
+  border-top: 2px solid black;
+  display:  block;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper_footer {
+  margin: 0 auto;
+  max-width: 60rem;
+  height:100px;
+  position: relative;
+  top: -20px;
+
+
+}
+.follow {
+  margin:0;
+  padding: 0;
+  width: 25%;
+}
+
+.follow img {
+  width: 40px;
+  height: 40px;
+  float:left;
+  margin-right:10px;
+}
+
+.follow, .cv, .me_contacter {
+  float: left;
+}
+
+.cv img {
+  position: relative;
+  top:-1px;
+  width: 40px;
+  height: 40px;
+}
+
+.cv {
+  position: relative;
+  left: 100px;
+  width: 25%;
+}
+
+.me_contacter  {
+  position: relative;
+  left: 200px;
+  width:25%;
+}
+
+.me_contacter img {
+  position: relative;
+  top:-10px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+.me_contacter span {
+  position: relative;
+  left: 10px;
+  top: -30px;
+}
+
+.realisations {
+  height:417px;
+}
+
+.s2t {
+  width:100%;
+  height:186px;
+  margin: 0;
+  padding: 0;
+  background-color: #D3D3D3;
+  border: 1px solid black;
+}
+
+.s2t img {
+  border-right: 1px solid black;
+}
+
+.s2t img, .s2t ul {
+  float:left;
+}
+
+.s2t ul li {
+  margin-bottom: 20px;
+}
+
+.langages, .frameworks {
+  border-bottom: 1px dotted black;
+  height: 200px;
+}
+
+.other {
+  height: 200px;
+}
+
+.langages div  p, .frameworks div  p, .other div p {
+  text-align: center;
+}
+
+.langages div, .frameworks div, .other div {
+  float:left;
+  margin-right: 60px;
+}
